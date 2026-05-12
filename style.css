@@ -1,0 +1,24 @@
+.divtitre{
+    display: flex;
+    justify-content: center;
+    color: brown;
+}
+
+
+nav a{
+    margin: 0 10px;
+    text-decoration: none;
+    
+}
+
+
+@media (max-with: 768px){
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        padding:  20px;
+    }
+}
